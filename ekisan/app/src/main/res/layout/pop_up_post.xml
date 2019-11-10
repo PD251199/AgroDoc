@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#487EB0"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/pop_upusermage"
+        android:layout_width="78dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginEnd="5dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[0]" />
+
+    <EditText
+        android:id="@+id/popuptitlr"
+        android:layout_width="259dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="87dp"
+        android:background="#DAE0E2"
+        android:ems="10"
+        android:hint="Query"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/pop_upusermage"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <EditText
+        android:id="@+id/popupdesc"
+        android:layout_width="364dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:background="#DAE0E2"
+        android:ems="10"
+        android:hint="Description"
+
+        android:inputType="textPersonName"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popuptitlr"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <ImageView
+        android:id="@+id/pop_up_img"
+        android:layout_width="285dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="8dp"
+        android:background="#192A56"
+        android:scaleType="centerCrop"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popupdesc"
+        app:layout_constraintVertical_bias="0.006"
+        tools:srcCompat="@tools:sample/avatars[1]" />
+
+    <ProgressBar
+        android:id="@+id/pop_up_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="304dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/pop_up_create"
+        android:layout_width="104dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="8dp"
+        android:background="#D4DDE6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pop_up_img"
+        app:layout_constraintVertical_bias="0.09"
+        app:srcCompat="@drawable/ic_create_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="239dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="172dp"
+        android:fadingEdge="horizontal|vertical|none"
+        android:text="Click to select image"
+
+
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

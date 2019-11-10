@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon Sep 23 20:05:49 IST 2019
+1.base=/home/rushikeshtapdiya/tensorflow-mobilenet-which-car-is-that-master/gradleBuild/intermediates/assets/debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=labels.txt
+0.set=ASSET
+0.base=/home/rushikeshtapdiya/tensorflow-mobilenet-which-car-is-that-master/gradleBuild/intermediates/assets/debug
+1.path=graph.pb

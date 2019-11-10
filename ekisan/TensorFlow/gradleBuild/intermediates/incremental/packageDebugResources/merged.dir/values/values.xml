@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="control_background">#cc4285f4</color>
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+    <string name="activity_name_classification">Which Car Is That</string>
+    <string name="activity_name_detection">WCIT Detect</string>
+    <string name="activity_name_stylize">WCIT Stylize</string>
+    <string name="app_name">CNN image classifier</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="default_web_client_id" translatable="false">244351955198-265rs46j10c6fh7k9i9qf631o2r55eei.apps.googleusercontent.com</string>
+    <string name="description_info">Info</string>
+    <string name="firebase_database_url" translatable="false">https://ekisan-9f4ea.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">244351955198</string>
+    <string name="google_api_key" translatable="false">AIzaSyCIAzs2pg-CJa8e5KLnoVTAO_a2mqFpTt0</string>
+    <string name="google_app_id" translatable="false">1:244351955198:android:4fc5c6f23a96ca1a7075af</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCIAzs2pg-CJa8e5KLnoVTAO_a2mqFpTt0</string>
+    <string name="google_storage_bucket" translatable="false">ekisan-9f4ea.appspot.com</string>
+    <string name="project_id" translatable="false">ekisan-9f4ea</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <style name="AppTheme" parent="Theme.Sample"/>
+    <style name="MaterialTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen"/>
+    <style name="Theme.Base" parent="android:Theme.Light"/>
+    <style name="Theme.Sample" parent="Theme.Base"/>
+    <style name="Widget"/>
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <declare-styleable name="ButtonBarContainerTheme">
+    <attr format="reference" name="metaButtonBarStyle"/>
+    <attr format="reference" name="metaButtonBarButtonStyle"/>
+  </declare-styleable>
+</resources>

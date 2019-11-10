@@ -1,0 +1,4 @@
+#Sun Nov 10 00:54:21 IST 2019
+base.0=E\:\\octave codes\\Mini_Project\\tensorflow-mobilenet-which-car-is-that-master\\gradleBuild\\intermediates\\transforms\\dexMerger\\debug\\18
+path.0=classes.dex
+renamed.0=classes.dex
